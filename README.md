@@ -1,0 +1,2 @@
+# Business-Performance-Analysis-and-Company-Dashboard-Development-for-Samba-Commerce-in-2022
+Samba Commerce, a rapidly growing e-commerce company in Brazil that was just launched in 2021. In 2022, the company aims to leverage data more effectively by creating a company-wide dashboard to better understand business performance, particularly in transactions, with the goal of making data-driven decisions.

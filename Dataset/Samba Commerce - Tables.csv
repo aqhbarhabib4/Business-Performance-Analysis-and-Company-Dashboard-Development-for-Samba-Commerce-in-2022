@@ -1,0 +1,33 @@
+Orders,,,,,Advanced,,
+Field,Type,Description,,,Field,Type,Description
+order_id,text,Order ID,,,order_id,text,Order ID
+customer id,text,Unique Customer ID,,,order_delivered_carrier_date,timestamp,Order Delivered Date to Carrier
+order_status,text,Order Delivery Status,,,order_delivered_customer_date,timestamp,Order Delivered Date to Customer
+customer_city,text,Customer City Location,,,order_estimated_delivery_date,date,Order Estimated Delivery Time
+customer_state,text,Customer State Location,,,customer_zip_code_prefix,integer,Customer Zip Code
+product_id,text,Product ID Customer bought,,,geolocation_lat,numeric,Customer Location Latitude
+seller_id,text,which seller handles the order,,,geolocation_lng,numeric,Customer Location Langitude
+price,numeric,Product Price,,,seller_state,text,Seller State Location
+product_category_name,text,Name of product category,,,payment_sequential,integer,Payment Divide How Many Payment Method
+qty_item,integer,Item Quantity for related product,,,,,
+,,,,,,,
+Order History,,,,,,,
+Field,Type,Description,,,,,
+order_id,text,Order ID,,,,,
+order_purchase_timestamp,timestamp,Order Purchased Time,,,,,
+order_approved_at,timestamp,Order Approved Date,,,,,
+seller_dispatch_time,text,"Seller Dispatch Order Before or After Shipping Limit Time
+
+Fast: Dispatch before the shipping limit time
+Delay: Dispatch after the shipping limit time",,,,,
+customer_delivery_time,text,"Order Delivered Before or After Expected Delivery Time
+
+Fast: Dispatch before the Expected Delivery Time
+Delay: Dispatch after the Expected Delivery Time",,,,,
+,,,,,,,
+Payments,,,,,,,
+Field,Type,Description,,,,,
+order_id,text,Order ID,,,,,
+payment_type,text,the payment type for each single order,,,,,
+payment_installments,integer,the installment number for each single order,,,,,
+total_payment_value,numeric,Total Order Payment Value,,,,,
